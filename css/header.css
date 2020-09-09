@@ -1,0 +1,126 @@
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #edeff1;
+}
+
+.site-header a {
+    color: #34404b;
+    text-decoration: none;
+}
+
+.header-line {
+    padding: 10px 0;
+    border-bottom: 1px solid #edeff1;
+}
+
+.header-line .block-570 {
+    min-height: auto;
+}
+
+.header-line .header-ico {
+    margin: 0 10px;
+}
+
+.main-logo {
+    margin-top: 30px;
+}
+
+.main-logo ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-nav li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    margin: 10px 15px;
+}
+
+.main-nav .active a {
+    color: #ff5912;
+}
+
+.ico-line {
+    margin-top: 38px;
+}
+
+.ico-line a {
+    margin: 0 12px;
+}
+
+.card {
+    position: relative;
+}
+
+.ico-line a span.card-count {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #34404b;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+}
+
+.contacts {
+    padding-top: 20px 25px;
+    position: relative;
+    font-size: 12px;
+    color: #34404b;
+}
+
+.header-line .contacts li {
+    float: left;
+    list-style: none;
+    margin: 10px 25px;
+    position: absolute;
+}
+
+.contacts a {
+    margin: 0 20px 0 0;
+}
+
+.response-nav {
+    display: none;
+    width: 200px;
+    position: fixed;
+    left: -179px;
+    top: 0px;
+    bottom: 0px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.response-nav::after{
+    content:"";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/ico_menu_1.png);
+    position: absolute;
+    right: 1px;
+    top:1px;
+}
+
+.response-nav:hover {
+    left: 0;
+}
+
+.response-nav ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+nav.response-nav .active {
+    color: #ff5912;
+}
+
+nav.response-nav a:hover {
+    color: #ff5912;
+}
